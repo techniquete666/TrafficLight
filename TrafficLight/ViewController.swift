@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         yellowLight.alpha = 0.3
         greenLight.alpha = 0.3
         
+        changeLightsButton.layer.cornerRadius = 10
+        
     }
     
     @IBAction func buttonTapped() {
